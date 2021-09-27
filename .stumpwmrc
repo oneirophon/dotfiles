@@ -1,0 +1,26 @@
+#-quicklisp
+(let ((quicklisp-init (merge-pathnames "quicklisp/setup.lisp"
+                                       (user-homedir-pathname))))
+    (when (probe-file quicklisp-init)
+        (load quicklisp-init)))
+
+(ql:quickload "stumpwm")
+
+;; (in-package :stumpwm)
+
+(init-load-path "/home/interloper/.stumpwm.d/modules")
+
+(ql:quickload "clx-truetype")
+(asdf:make "ttf-fonts")
+
+(clx-truetype:cache-fonts)
+
+(set-font (make-instance 'xft:font
+                          :family "FreeMono"
+                          :subfamily "Medium"
+                          :size 16
+                          :antialias t))
+
+(set-prefix-key (kbd "C-space"))
+
+(setf *message-window-gravity* :center)
