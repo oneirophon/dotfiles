@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"   "http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<!-- Generator: Adobe Illustrator 9.0, SVG Export Plug-In  -->
+<svg  width="200.954pt" height="200.954pt" viewBox="0 0 200.954 200.954" xml:space="preserve">
+	<g id="Layer_x0020_1" style="fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;">
+		<path style="fill:#000000;stroke:none;" d="M0,100.477c0,55.403,45.074,100.477,100.477,100.477c55.403,0,100.477-45.074,100.477-100.477S155.88,0,100.477,0C45.074,0,0,45.074,0,100.477z"/>
+		<radialGradient id="aigrd1" cx="70.8823" cy="63.2881" r="125.1044" fx="70.8823" fy="63.2881" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FED182"/>
+			<stop  offset="0.2809" style="stop-color:#FFB310"/>
+			<stop  offset="1" style="stop-color:#996E04"/>
+		</radialGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#aigrd1);stroke:none;" d="M185.192,99.477c0,47.338-38.377,85.715-85.715,85.715c-47.339,0-85.715-38.377-85.715-85.715c0-47.339,38.376-85.715,85.715-85.715c47.338,0,85.715,38.376,85.715,85.715z"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;stroke:none;" d="M142.588,125.329c0,8.693-7.048,15.74-15.741,15.74s-15.74-7.047-15.74-15.74s7.047-15.74,15.74-15.74s15.741,7.047,15.741,15.74z"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;stroke:none;" d="M92.588,125.329c0,8.693-7.047,15.74-15.741,15.74s-15.741-7.047-15.741-15.74s7.047-15.74,15.741-15.74s15.741,7.047,15.741,15.74z"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#000000;stroke:none;" d="M140.588,123.329c0,8.693-7.048,15.74-15.741,15.74s-15.74-7.047-15.74-15.74s7.047-15.74,15.74-15.74s15.741,7.047,15.741,15.74z"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#000000;stroke:none;" d="M90.588,123.329c0,8.693-7.047,15.74-15.741,15.74s-15.741-7.047-15.741-15.74s7.047-15.74,15.741-15.74s15.741,7.047,15.741,15.74z"/>
+		<radialGradient id="aigrd2" cx="84.8101" cy="93.1431" r="60.8938" fx="84.8101" fy="93.1431" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#F0E1BD"/>
+		</radialGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#aigrd2);stroke:none;" d="M141.588,124.329c0,8.693-7.048,15.74-15.741,15.74s-15.74-7.047-15.74-15.74s7.047-15.74,15.74-15.74s15.741,7.047,15.741,15.74z"/>
+		<radialGradient id="aigrd3" cx="84.8101" cy="93.1431" r="60.8938" fx="84.8101" fy="93.1431" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#F0E1BD"/>
+		</radialGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#aigrd3);stroke:none;" d="M91.588,124.329c0,8.693-7.047,15.74-15.741,15.74s-15.741-7.047-15.741-15.74s7.047-15.74,15.741-15.74s15.741,7.047,15.741,15.74z"/>
+	</g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 9.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"   "http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd" [
+	<!ENTITY st0 "fill:url(#aigrd1);stroke:none;">
+	<!ENTITY st1 "fill:#000000;stroke:none;">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#962B0B;stroke:none;">
+	<!ENTITY st3 "opacity:0.35;fill:#000000;stroke:none;">
+	<!ENTITY st4 "fill:url(#aigrd3);stroke:none;">
+	<!ENTITY st5 "fill-rule:nonzero;clip-rule:nonzero;fill:#FFFFFF;stroke:#000000;stroke-miterlimit:4;">
+	<!ENTITY st6 "opacity:0.3;">
+	<!ENTITY st7 "fill:url(#aigrd2);stroke:none;">
+	<!ENTITY st8 "fill:#BEBEBE;stroke:none;">
+	<!ENTITY st9 "fill-rule:nonzero;clip-rule:nonzero;stroke:#000000;stroke-miterlimit:4;">
+	<!ENTITY st10 "stroke:none;">
+	<!ENTITY st11 "fill:url(#aigrd4);stroke:none;">
+]>
+<svg  width="207.901pt" height="179.886pt" viewBox="0 0 207.901 179.886" xml:space="preserve">
+	<g id="Layer_x0020_1" style="&st5;">
+		<path style="&st3;" d="M145.325,178.647c-14.998,2.891-125.286,0.938-133.223-7.219c-7.936-8.152,47.936-44.455,67.649-46.859c19.713-2.404,116.353,10.576,126.931,21.154c10.576,10.578-46.359,30.035-61.357,32.924z"/>
+		<path style="&st1;" d="M22,0C9.869,0,0,9.869,0,22v129.79c0,12.131,9.869,22,22,22h115.802c12.131,0,22-9.869,22-22V22c0-12.131-9.869-22-22-22H22z"/>
+		<linearGradient id="aigrd1" gradientUnits="userSpaceOnUse" x1="38.9507" y1="17.4937" x2="120.6722" y2="159.4575">
+			<stop  offset="0" style="stop-color:#F0F0F0"/>
+			<stop  offset="1" style="stop-color:#D6D6D6"/>
+		</linearGradient>
+		<path style="&st0;" d="M148.802,151.79c0,6.627-5.373,12-12,12H21c-6.627,0-12-5.373-12-12V22c0-6.627,5.373-12,12-12h115.802c6.627,0,12,5.373,12,12v129.79z"/>
+		<g>
+			<radialGradient id="aigrd2" cx="20.8916" cy="114.5664" r="5.2576" fx="20.8916" fy="114.5664" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#F0F0F0"/>
+				<stop  offset="1" style="stop-color:#474747"/>
+			</radialGradient>
+			<path style="&st7;" d="M23.428,113.069c0,1.973-1.6,3.572-3.573,3.572c-1.974,0-3.573-1.6-3.573-3.572s1.6-3.572,3.573-3.572c1.973,0,3.573,1.6,3.573,3.572z"/>
+			<radialGradient id="aigrd3" cx="20.8916" cy="64.5679" r="5.2576" fx="20.8916" fy="64.5679" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#F0F0F0"/>
+				<stop  offset="1" style="stop-color:#474747"/>
+			</radialGradient>
+			<path style="&st4;" d="M23.428,63.07c0,1.973-1.6,3.573-3.573,3.573c-1.974,0-3.573-1.6-3.573-3.573c0-1.974,1.6-3.573,3.573-3.573c1.973,0,3.573,1.6,3.573,3.573z"/>
+		</g>
+		<path style="&st10;" d="M31.679,163.71h-1.613V12.642h1.613V163.71z"/>
+		<linearGradient id="aigrd4" gradientUnits="userSpaceOnUse" x1="30.1479" y1="16.8433" x2="28.364" y2="158.2251">
+			<stop  offset="0" style="stop-color:#EDEDED"/>
+			<stop  offset="1" style="stop-color:#CACACA"/>
+		</linearGradient>
+		<path style="&st11;" d="M30.054,163.71h-1.613V12.642h1.613V163.71z"/>
+		<path style="&st10;" d="M14.393,26.155l-2.618,133.307c-1.902-1.9-2.662-6.035-2.662-6.035L8.952,21.509c0,0-0.159-3.403,2.963-7.335c3.16-3.98,8.421-4.22,8.421-4.22l118.165,0.168l-113.615,5.54c-4.588,0-7.045,2.273-8.048,3.467
+			c-0.812,0.967-2.392,4.104-2.445,7.026z"/>
+		<path style="&st8;" d="M143.944,147.663l2.617-133.307c1.902,1.9,2.662,6.035,2.662,6.035l0.162,131.918c0,0,0.158,3.402-2.963,7.334c-3.16,3.98-8.422,4.221-8.422,4.221l-118.166-0.168l113.617-5.541c4.588,0,7.045-2.273,8.047-3.467
+			c0.812-0.967,2.393-4.104,2.445-7.025z"/>
+	</g>
+	<g id="Layer_x0020_2" style="&st9;">
+		<g style="&st10;">
+			<path style="&st6;" d="M135.778,84.062H83.097V71.476h52.682v12.586z"/>
+			<path style="&st6;" d="M75.516,84.062H43.097V71.476h32.419v12.586z"/>
+			<path style="&st6;" d="M130.688,104.062h-23.043V91.476h23.043v12.586z"/>
+			<path style="&st6;" d="M138.163,144.062h-31.939v-12.586h31.939v12.586z"/>
+			<path style="&st6;" d="M99.358,144.062H43.097v-12.586h56.262v12.586z"/>
+			<path style="&st6;" d="M78.162,124.062H43.097v-12.586h35.065v12.586z"/>
+			<path style="&st6;" d="M100.688,104.062H43.097V91.476h57.592v12.586z"/>
+			<path style="&st6;" d="M100.688,64.062H43.097V51.476h57.592v12.586z"/>
+			<path style="&st6;" d="M115.944,44.062H43.097V31.476h72.848v12.586z"/>
+		</g>
+	</g>
+	<g id="Layer_x0020_3" style="&st9;">
+		<path style="&st2;" d="M103.813,88.929l15.296-15.295c4.255-4.255,4.255-11.154,0-15.408s-11.152-4.254-15.408,0L88.405,73.522L73.108,58.225c-4.254-4.254-11.153-4.254-15.408,0s-4.254,11.153,0,15.408l15.297,15.296l-15.297,15.297
+			c-4.254,4.255-4.254,11.152,0,15.408c4.255,4.255,11.153,4.255,15.408,0l15.297-15.298l15.296,15.297c4.255,4.255,11.153,4.255,15.408,0s4.255-11.153,0-15.408l-15.296-15.296z"/>
+	</g>
+</svg>
