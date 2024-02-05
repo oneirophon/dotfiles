@@ -1,0 +1,239 @@
+                   ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±± 
+                       GETTING STARTED AND TECH SUPPORT                       
+                   ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+
+Game Requirements
+ßßßßßßßßßßßßßßßßß
+
+Vinyl Goddess From Mars requires:
+        --> VGA graphics card.
+        --> 560K (570,680 bytes) of free conventional RAM.
+        --> Hard drive.
+        --> 386DX or better ( 486 for best playablity ).
+
+Supports:
+        --> Adlib/Sound Blaster compatible music track.
+        --> Sound Blaster compatible digitized sound effects.
+        --> Joystick or gamepad.
+
+Setup
+ßßßßß
+
+Before you can start Vinyl Goddess From Mars, you must run SETUP in order to 
+configure your sound card and game control device.  To start the SETUP 
+program:
+        Switch to the drive and directory that contains the GODDESS.EXE file.  
+        For example:
+                C:
+                CD \VINYL
+
+        Type SETUP.
+
+** NOTE: The SETUP program only needs to be run the first time you play, or **
+**       any time that you want to CHANGE your configuration.               **
+
+Starting The Game
+ßßßßßßßßßßßßßßßßß
+
+Starting From MS-DOS
+--------------------
+Once you have setup your sound card and chosen a game control device using 
+the SETUP program, you're ready to run the game.  Get into the directory
+where you have installed Vinyl Goddess From Mars ( e.g. CD \VINYL ) and type
+GODDESS.
+
+Running the Game From Windows
+-----------------------------
+We do not recommend running Vinyl Goddess From Mars from Microsoft Windows.
+Windows requires too many system resources to allow Vinyl Goddess to play
+fast and smooth.  You should exit Windows and run the game from DOS 
+instead.  To exit Windows, use the 'File' menu in the Program Manager and 
+select 'Exit Windows...'.
+
+If, however, you must launch Vinyl Goddess from the Windows environment, use
+the GODDESS.PIF as opposed to GODDESS.EXE.  When playing Vinyl Goddess under
+Windows, you may find that the game:
+        A. You may notice the game slows down slightly.
+        B. You will see a slight scrolling 'flick' from time to time.
+        C. Your keyboard actions may be slightly delayed.
+
+Running the Game From OS/2
+--------------------------
+We recommend that you run Vinyl Goddess From Mars from DOS only.  However, 
+if you decide to run the game from OS/2, here are a few settings to try.
+These settings allow Vinyl Goddess to run on our machines using OS/2 Warp.
+Please note that your results may be different depending on your version
+of OS/2 and your specific computer configuration.
+
+                AUDIO_ADAPTER_SHARING     = REQUIRED
+                COM_DIRECT_ACCESS         = OFF
+                COM_HOLD                  = OFF
+                COM_RECEIVE_BUFFER_FLUSH  = NONE
+                COM_SELECT                = ALL
+                DOS_AUTOEXEC              = *
+                DOS_BACKGROUND_EXECUTION  = OFF
+                DOS_BREAK                 = OFF
+                DOS_DEVICE                = *
+                DOS_FCBS                  = 16
+                DOS_FCBS_KEEP             = 8
+                DOS_FILES                 = 30
+                DOS_HIGH                  = ON
+                DOS_LASTDRIVE             = Z
+                DOS_RMSIZE                = 640
+                DOS_SHELL                 = *
+                DOS_STARTUP_DRIVE         = *
+                DOS_UMB                   = ON
+                DOS_VERSION               = *
+                DPMI_DOS_API              = DISABLED
+                DPMI_MEMORY_LIMIT         = 0
+                DPMI_NETWORK_BUFF_SIZE    = 1
+                EMS_FRAME_LOCATION        = NONE
+                EMS_HIGH_OS_MAP_REGION    = 0
+                EMS_LOW_OS_MAP_REGION     = 0
+                EMS_MEMORY_LIMIT          = 0
+                HW_NOSOUND                = OFF
+                HW_ROM_TO_RAM             = OFF
+                HW_TIMER                  = ON
+                IDLE_SECONDS              = 0
+                IDLE_SENSITIVITY          = 100
+                INT_DURING_IO             = ON
+                KBD_ALTHOME_BYPASS        = ON
+                KBD_BUFFER_EXTEND         = OFF
+                KBD_CTRL_BYPASS           = NONE
+                KBD_RATE_LOCK             = OFF
+                MEM_EXCLUDE_REGIONS       = *
+                MEM_INCLUDE_REGIONS       = *
+                MOUSE_EXCLUSIVE_ACCESS    = ON
+                PRINT_SEPARATE_OUTPUT     = *
+                PRINT_TIMEOUT             = * 
+                SESSION_PRIORITY          = 32
+                VIDEO_8514A_XGA_IOTRAP    = OFF
+                VIDEO_FASTPASTE           = OFF
+                VIDEO_MODE_RESTRICTION    = NONE
+                VIDEO_ONDEMAND_MEMORY     = OFF
+                VIDEO_RETRACE_EMULATION   = OFF
+                VIDEO_ROM_EMULATION       = OFF
+                VIDEO_SWITCH_NOTIFICATION = OFF
+                VIDEO_WINDOW_REFRESH      = 1
+                XMS_HANDLES               = 0
+                XMS_MEMORY_LIMIT          = 0
+                XMS_MINIMUM_HMA           = 0
+
+Please note that an asterisk (*) denotes the default setting.
+
+Not Enough Memory
+ßßßßßßßßßßßßßßßßß
+
+Vinyl Goddess From Mars requires at least 560K of free DOS memory.  When you
+run the program, it will check how much memory is available and exit if there
+is insufficient memory to play the game.  The message will look something 
+like this:
+        
+        This program requires at least xxxxxx bytes of memory to run.
+
+1.  If you are using a DOS Shell, exit from this shell and run the game
+    from DOS only.
+
+2.  If you are launching Vinyl Goddess from Windows and get a memory error,
+    you must exit Windows and run the game from DOS only.
+
+3.  If you are completely in DOS and still do not have enough free memory
+    to run the game, you must either boot your computer clean or unload some 
+    of your TSR's and/or device drivers.  We'll tackle booting your computer 
+    clean.
+
+Booting clean using DOS 6.00 or better
+--------------------------------------
+MS DOS 6.00 has a special built in function that makes it very easy to boot 
+your computer clean.  When first booting your computer, MS DOS will 
+display the message "Starting MS-DOS...".  When you see this message, hit 
+your F5 key.  This will bypass your AUTOEXEC.BAT and CONFIG.SYS thereby 
+allowing your computer to boot without memory managers and TSRs.
+
+Booting clean using a boot disk
+-------------------------------
+If you have a version of MS DOS below MS DOS 6.00, then you must create a 
+special boot disk.  This boot disk will allow your computer to boot without
+any memory managers, drivers, or TSRs.  Here is how you create your boot
+disk:
+        I.   Find a blank disk and place it in your floppy dirve A:
+        II.  Type the command:
+                FORMAT A: /S
+        III. Once the format is complete, you will have a bootable floppy.
+
+Now, to boot clean from a bootable floppy:
+        I.   Place the disk in drive A: and reset your computer.
+        II.  Patiently wait while your computer boots from the floppy disk. 
+             Once it is finished, you must change to your hard disk drive by
+             typing the drive letter.  For example, C:
+        III. Enter the directory where you installed Vinyl Goddess From Mars
+             ( e.g. CD \VINYL ) and type GODDESS to start the game.
+
+Common Problems and Solutions
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+PROB: The game slows downs in some areas
+----------------------------------------
+Vinyl Goddess From Mars runs at a very high frame rate in order to maintain 
+the smoothest scrolling possible on an IBM PC.  As a result, the game may 
+slow down slightly on a 386 or very slow 486.  
+
+If you are playing the game under Windows or OS/2, you should run the program
+only from MS DOS.  This will give Vinyl Goddess maximum computer power. 
+
+PROB: Sometimes, the game locks up
+----------------------------------
+This is a sound card related problem.  There are several causes for this:
+
+I.   You are running QEMM with your sound card.  In most cases this will not
+     be a problem, however, if the game is locking up because of sound, it
+     may be caused by QEMM.  Try playing the game without QEMM. 
+
+II.  One of your TSRs or device drivers is in conflict with Vinyl Goddess 
+     From Mars.  For best results, try booting your computer clean.  Please
+     refer to the section on booting clean.
+
+III. Some sound cards are not 100% sound blaster compatible.  Vinyl Goddess
+     From Mars is written for a 100% sound blaster compatible sound card.  
+     Try disabling your sound effects card in the SETUP program and running 
+     the game without sound effects.  You should still be able to hear 
+     music, but the sound effects will not play.
+
+PROB: The sound effects work when I start the game, but later they stop
+-----------------------------------------------------------------------
+This is a sound card related problem where you have chosen an incorrect 
+sound card IRQ.  Check your sound card documentation and re-run the setup 
+program in order to change the IRQ.
+
+How To Contact The Union Logic Technical Support Department
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+If you have any problems that you cannot resolve using this document, our 
+technical support department is ready to give you as much help as we 
+possibly can.  Here are 4 ways to contact technical support:
+
+1.  You can fax our technical support department 24 hours per day at this
+    number:
+                (613)599-7245.
+
+2.  If you are an Internet user, contact our technical support department 
+    by emailing to this address:
+    
+                unlogic@globalx.net
+
+    Please address your question or comment to 'technical support'.
+.
+3.  Our technical support people are available to answer your call Monday 
+    through Friday between the hours of 9:00AM and 5:00PM Eastern Standard
+    Time.
+
+4.  And, of coarse, you can reach us by mail at:
+                        
+                        Technical Support
+                        Union Logic Software Publishing, Inc.
+                        P.O. Box 31039
+                        100 Bayshore Drive
+                        Nepean, Ontario, Canada
+                        K2B 8S8
+
+[ END OF DOCUMENT ]

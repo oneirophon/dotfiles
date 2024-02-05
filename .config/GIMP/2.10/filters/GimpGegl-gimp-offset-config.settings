@@ -1,0 +1,54 @@
+# settings
+
+(GimpGegl-gimp-offset-config "2024-01-27 22:33:28"
+    (time 1706412808)
+    (type wrap-around)
+    (x 71)
+    (y 0))
+(GimpGegl-gimp-offset-config "2024-01-27 22:27:36"
+    (time 1706412456)
+    (type wrap-around)
+    (x 256)
+    (y 256))
+(GimpGegl-gimp-offset-config "2024-01-27 22:25:33"
+    (time 1706412333)
+    (type wrap-around)
+    (x 256)
+    (y 0))
+(GimpGegl-gimp-offset-config "2024-01-27 21:03:52"
+    (time 1706407432)
+    (type wrap-around)
+    (x 29)
+    (y 256))
+(GimpGegl-gimp-offset-config "2024-01-27 21:00:05"
+    (time 1706407205)
+    (type wrap-around)
+    (x 0)
+    (y 256))
+(GimpGegl-gimp-offset-config "2024-01-27 18:37:27"
+    (time 1706398647)
+    (type wrap-around)
+    (x -6)
+    (y 0))
+(GimpGegl-gimp-offset-config "2024-01-27 18:36:16"
+    (time 1706398576)
+    (type wrap-around)
+    (x -10)
+    (y 0))
+(GimpGegl-gimp-offset-config "2024-01-27 18:34:55"
+    (time 1706398495)
+    (type wrap-around)
+    (x 64)
+    (y 64))
+(GimpGegl-gimp-offset-config "2024-01-27 18:33:30"
+    (time 1706398410)
+    (type wrap-around)
+    (x 0)
+    (y -5))
+(GimpGegl-gimp-offset-config "2024-01-27 15:31:01"
+    (time 1706387461)
+    (type wrap-around)
+    (x 512)
+    (y 512))
+
+# end of settings

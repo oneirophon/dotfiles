@@ -1,0 +1,6 @@
+# GIMP gimp-by-color-select-tool options
+
+(threshold 11.699999999999999)
+(select-criterion lch-h)
+
+# end of gimp-by-color-select-tool options

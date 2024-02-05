@@ -1,0 +1,372 @@
+11:16:45.559: Platform: Wayland
+11:16:45.559: CPU Name: Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+11:16:45.559: CPU Speed: 797.458MHz
+11:16:45.559: Physical Cores: 2, Logical Cores: 4
+11:16:45.559: Physical Memory: 7832MB Total, 406MB Free
+11:16:45.560: Kernel Version: Linux 6.5.7_1
+11:16:45.587: Distribution: "Void" Unknown
+11:16:45.587: Desktop Environment: sway
+11:16:45.587: Session Type: wayland
+11:16:45.620: Qt Version: 6.6.0 (runtime), 6.6.0 (compiled)
+11:16:45.620: Portable mode: false
+11:16:45.920: OBS 30.0.0 (linux)
+11:16:45.920: ---------------------------------
+11:16:45.939: ---------------------------------
+11:16:45.939: audio settings reset:
+11:16:45.939: 	samples per sec: 48000
+11:16:45.939: 	speakers:        2
+11:16:45.939: 	max buffering:   960 milliseconds
+11:16:45.939: 	buffering type:  dynamically increasing
+11:16:45.971: ---------------------------------
+11:16:45.971: Initializing OpenGL...
+11:16:45.971: Using EGL/Wayland
+11:16:48.761: Initialized EGL 1.5
+11:16:48.780: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 3000 (SNB GT2)
+11:16:48.780: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 23.3.0, shading language 3.30
+11:16:49.064: ---------------------------------
+11:16:49.064: video settings reset:
+11:16:49.064: 	base resolution:   1366x768
+11:16:49.064: 	output resolution: 852x480
+11:16:49.064: 	downscale filter:  Bicubic
+11:16:49.064: 	fps:               60/1
+11:16:49.064: 	format:            NV12
+11:16:49.064: 	YUV mode:          Rec. 709/Partial
+11:16:49.064: NV12 texture support not available
+11:16:49.064: P010 texture support not available
+11:16:49.083: Audio monitoring device:
+11:16:49.083: 	name: Default
+11:16:49.083: 	id: default
+11:16:49.083: ---------------------------------
+11:16:49.128: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:16:49.154: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:16:49.183: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:16:49.183: Failed to initialize module 'decklink.so'
+11:16:50.237: [pipewire] Available captures:
+11:16:50.237: [pipewire]     - Desktop capture
+11:16:51.743: NVENC supported
+11:16:51.771: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+11:16:51.771: FFmpeg VAAPI H264 encoding not supported
+11:16:51.771: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+11:16:51.771: FFmpeg VAAPI HEVC encoding not supported
+11:16:54.864: [vlc-video]: VLC 3.0.20 Vetinari found, VLC video source enabled
+11:16:54.864: ---------------------------------
+11:16:54.864:   Loaded Modules:
+11:16:54.864:     vlc-video.so
+11:16:54.864:     text-freetype2.so
+11:16:54.864:     rtmp-services.so
+11:16:54.864:     obs-x264.so
+11:16:54.864:     obs-webrtc.so
+11:16:54.864:     obs-transitions.so
+11:16:54.864:     obs-qsv11.so
+11:16:54.865:     obs-outputs.so
+11:16:54.865:     obs-filters.so
+11:16:54.865:     obs-ffmpeg.so
+11:16:54.865:     linux-v4l2.so
+11:16:54.865:     linux-pulseaudio.so
+11:16:54.865:     linux-pipewire.so
+11:16:54.865:     linux-jack.so
+11:16:54.865:     linux-capture.so
+11:16:54.865:     linux-alsa.so
+11:16:54.865:     image-source.so
+11:16:54.865:     frontend-tools.so
+11:16:54.865:     decklink-output-ui.so
+11:16:54.865:     decklink-captions.so
+11:16:54.865: ---------------------------------
+11:16:54.866: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+11:16:54.909: ==== Startup complete ===============================================
+11:16:55.237: [rtmp-services plugin] Successfully updated file 'services.json' (version 238)
+11:16:55.237: [rtmp-services plugin] Successfully updated package (version 238)
+11:16:55.791: All scene data cleared
+11:16:55.791: ------------------------------------------------
+11:16:55.835: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.82) 15.0.0'
+11:16:55.835: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:16:55.835: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+11:16:55.835: [Loaded global audio device]: 'Desktop Audio'
+11:16:55.836: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.82) 15.0.0'
+11:16:55.836: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:16:55.836: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo' (default)
+11:16:55.836: [Loaded global audio device]: 'Mic/Aux'
+11:16:55.837: v4l2-input: Start capture from /dev/video0
+11:16:56.032: v4l2-input: Input: 0
+11:16:56.107: v4l2-input: Resolution: 640x480
+11:16:56.108: v4l2-input: Pixelformat: YUYV
+11:16:56.108: v4l2-input: Linesize: 1280 Bytes
+11:16:56.108: v4l2-input: Framerate: 30.00 fps
+11:16:56.109: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+11:16:56.277: v4l2-input: /dev/video0: select timed out
+11:16:56.277: v4l2-input: /dev/video0: failed to log status
+11:16:56.444: v4l2-input: /dev/video0: select timed out
+11:16:56.444: v4l2-input: /dev/video0: failed to log status
+11:16:56.478: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:16:56.478: 
+11:16:56.611: v4l2-input: /dev/video0: select timed out
+11:16:56.612: v4l2-input: /dev/video0: failed to log status
+11:16:56.676: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:16:56.677: PipeWire initialized
+11:16:56.682: Switched to scene 'Scene'
+11:16:56.683: ------------------------------------------------
+11:16:56.683: Loaded scenes:
+11:16:56.683: - scene 'Scene':
+11:16:56.683:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+11:16:56.683: - scene 'Scene 2':
+11:16:56.683:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+11:16:56.683:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+11:16:56.683: ------------------------------------------------
+11:16:56.778: v4l2-input: /dev/video0: select timed out
+11:16:56.778: v4l2-input: /dev/video0: failed to log status
+11:16:56.946: v4l2-input: /dev/video0: select timed out
+11:16:56.946: v4l2-input: /dev/video0: failed to log status
+11:16:57.035: [pipewire] Screencast session created
+11:16:57.113: v4l2-input: /dev/video0: select timed out
+11:16:57.113: v4l2-input: /dev/video0: failed to log status
+11:16:57.280: v4l2-input: /dev/video0: select timed out
+11:16:57.280: v4l2-input: /dev/video0: failed to log status
+11:16:57.447: v4l2-input: /dev/video0: select timed out
+11:16:57.447: v4l2-input: /dev/video0: failed to log status
+11:16:57.614: v4l2-input: /dev/video0: select timed out
+11:16:57.614: v4l2-input: /dev/video0: failed to log status
+11:16:57.678: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:16:57.781: v4l2-input: /dev/video0: select timed out
+11:16:57.781: v4l2-input: /dev/video0: failed to log status
+11:16:57.948: v4l2-input: /dev/video0: select timed out
+11:16:57.948: v4l2-input: /dev/video0: failed to log status
+11:16:58.115: v4l2-input: /dev/video0: select timed out
+11:16:58.115: v4l2-input: /dev/video0: failed to log status
+11:16:58.282: v4l2-input: /dev/video0: select timed out
+11:16:58.282: v4l2-input: /dev/video0: failed to log status
+11:16:58.449: v4l2-input: /dev/video0: select timed out
+11:16:58.449: v4l2-input: /dev/video0: failed to log status
+11:16:58.616: v4l2-input: /dev/video0: select timed out
+11:16:58.616: v4l2-input: /dev/video0: failed to log status
+11:16:58.783: v4l2-input: /dev/video0: select timed out
+11:16:58.783: v4l2-input: /dev/video0: failed to log status
+11:16:59.678: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:02.679: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:06.679: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:08.994: [pipewire] Asking for desktop
+11:17:09.118: [pipewire] desktop selected, setting up screencast
+11:17:09.213: [pipewire] Server version: 0.3.82
+11:17:09.213: [pipewire] Library version: 1.0.0
+11:17:09.213: [pipewire] Header version: 0.3.83
+11:17:09.213: [pipewire] Created stream 0x55633c7c9730
+11:17:09.213: [pipewire] Stream 0x55633c7c9730 state: "connecting" (error: none)
+11:17:09.213: [pipewire] Playing stream 0x55633c7c9730
+11:17:09.214: [pipewire] Stream 0x55633c7c9730 state: "paused" (error: none)
+11:17:09.218: [pipewire] Negotiated format:
+11:17:09.218: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:17:09.218: [pipewire]     Modifier: 0x0
+11:17:09.218: [pipewire]     Size: 1366x768
+11:17:09.218: [pipewire]     Framerate: 0/1
+11:17:09.220: [pipewire] Negotiated format:
+11:17:09.220: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:17:09.220: [pipewire]     Modifier: 0x100000000000002
+11:17:09.220: [pipewire]     Size: 1366x768
+11:17:09.220: [pipewire]     Framerate: 0/1
+11:17:09.224: [pipewire] Stream 0x55633c7c9730 state: "streaming" (error: none)
+11:17:11.680: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:16.681: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:21.681: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:26.682: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:30.619: v4l2-input: /dev/video0: select timed out
+11:17:30.619: v4l2-input: /dev/video0: failed to log status
+11:17:31.312: v4l2-input: /dev/video0: select timed out
+11:17:31.312: v4l2-input: /dev/video0: failed to log status
+11:17:32.064: v4l2-input: /dev/video0: select timed out
+11:17:32.064: v4l2-input: /dev/video0: failed to log status
+11:17:32.072: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:32.083: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+11:17:32.083: 
+11:17:37.073: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:42.166: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:47.166: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:52.167: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:17:57.199: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:02.298: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:07.299: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:12.300: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:17.300: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:22.301: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:27.301: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:29.003: ---------------------------------
+11:18:29.003: [x264 encoder: 'simple_video_recording'] preset: veryfast
+11:18:29.003: [x264 encoder: 'simple_video_recording'] profile: high
+11:18:29.038: [x264 encoder: 'simple_video_recording'] settings:
+11:18:29.038: 	rate_control: CRF
+11:18:29.038: 	bitrate:      0
+11:18:29.038: 	buffer size:  0
+11:18:29.038: 	crf:          18
+11:18:29.038: 	fps_num:      60
+11:18:29.038: 	fps_den:      1
+11:18:29.038: 	width:        852
+11:18:29.038: 	height:       480
+11:18:29.038: 	keyint:       250
+11:18:29.038: 
+11:18:29.125: ---------------------------------
+11:18:29.198: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: 3
+11:18:29.198: 
+11:18:29.853: ==== Recording Start ===============================================
+11:18:29.853: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sasha/Videos/2023-12-10 11-18-28.mp4'...
+11:18:31.038: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+11:18:32.302: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:37.303: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:39.792: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sasha/Videos/2023-12-10 11-18-28.mp4' stopped
+11:18:39.792: Output 'simple_file_output': stopping
+11:18:39.792: Output 'simple_file_output': Total frames output: 576
+11:18:39.792: Output 'simple_file_output': Total drawn frames: 596
+11:18:39.792: ==== Recording Stop ================================================
+11:18:39.834: Video stopped, number of skipped frames due to encoding lag: 24/619 (3.9%)
+11:18:41.711: ---------------------------------
+11:18:41.711: [x264 encoder: 'simple_video_recording'] preset: veryfast
+11:18:41.711: [x264 encoder: 'simple_video_recording'] profile: high
+11:18:41.711: [x264 encoder: 'simple_video_recording'] settings:
+11:18:41.711: 	rate_control: CRF
+11:18:41.711: 	bitrate:      0
+11:18:41.711: 	buffer size:  0
+11:18:41.711: 	crf:          18
+11:18:41.711: 	fps_num:      60
+11:18:41.711: 	fps_den:      1
+11:18:41.711: 	width:        852
+11:18:41.711: 	height:       480
+11:18:41.711: 	keyint:       250
+11:18:41.711: 
+11:18:41.717: ---------------------------------
+11:18:41.718: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: 3
+11:18:41.718: 
+11:18:41.722: ==== Recording Start ===============================================
+11:18:41.722: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sasha/Videos/2023-12-10 11-18-41.mp4'...
+11:18:41.727: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+11:18:42.303: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:47.305: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:52.338: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:18:57.338: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:02.339: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:07.340: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:12.341: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:17.343: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:22.344: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:27.344: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:29.714: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sasha/Videos/2023-12-10 11-18-41.mp4' stopped
+11:19:29.714: Output 'simple_file_output': stopping
+11:19:29.714: Output 'simple_file_output': Total frames output: 2854
+11:19:29.714: Output 'simple_file_output': Total drawn frames: 1304 (2879 attempted)
+11:19:29.714: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1575 (54.7%)
+11:19:29.714: Video stopped, number of skipped frames due to encoding lag: 2/2879 (0.1%)
+11:19:29.714: ==== Recording Stop ================================================
+11:19:32.345: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:37.345: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:42.346: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:47.347: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:52.348: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:19:57.349: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:02.350: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:07.351: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:12.351: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:17.352: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:22.352: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:27.353: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:32.354: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:37.355: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:42.355: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:47.357: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:52.358: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:20:57.360: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:02.361: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:07.361: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:12.362: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:17.364: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:22.365: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:27.367: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:32.368: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:37.368: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:42.369: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:47.371: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:52.372: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:21:57.373: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:22:02.373: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+11:45:34.319: Last log entry repeated for 282 more lines
+11:45:34.319: ==== Shutting down ==================================================
+11:45:34.458: [pipewire] Stream 0x55633c7c9730 state: "paused" (error: none)
+11:45:34.511: v4l2-input: /dev/video0: Stopped capture after 20650 frames
+11:45:37.591: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+11:45:37.591: pulse-input: Got 68824 packets with 82588800 frames
+11:45:37.591: alsa-input: Failed to open 'front:CARD=PCH,D�': Device or resource busy
+11:45:37.591: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+11:45:37.591: pulse-input: Got 68802 packets with 82562400 frames
+11:45:37.592: [pipewire] Stream 0x55633c7c9730 state: "unconnected" (error: none)
+11:45:37.609: All scene data cleared
+11:45:37.609: ------------------------------------------------
+11:45:38.428: [Scripting] Total detached callbacks: 0
+11:45:38.428: Freeing OBS context data
+11:45:38.495: == Profiler Results =============================
+11:45:38.495: run_program_init: 11788.3 ms
+11:45:38.495:  ┣OBSApp::AppInit: 126.905 ms
+11:45:38.495:  ┃ ┗OBSApp::InitLocale: 62.304 ms
+11:45:38.495:  ┗OBSApp::OBSInit: 11376.5 ms
+11:45:38.495:    ┣obs_startup: 61.474 ms
+11:45:38.495:    ┗OBSBasic::OBSInit: 10996.6 ms
+11:45:38.495:      ┣OBSBasic::InitBasicConfig: 0.157 ms
+11:45:38.495:      ┣OBSBasic::ResetAudio: 0.38 ms
+11:45:38.495:      ┣OBSBasic::ResetVideo: 3144.05 ms
+11:45:38.495:      ┃ ┗obs_init_graphics: 3125 ms
+11:45:38.495:      ┃   ┗shader compilation: 283.915 ms
+11:45:38.495:      ┣OBSBasic::InitOBSCallbacks: 0.018 ms
+11:45:38.495:      ┣OBSBasic::InitHotkeys: 0.035 ms
+11:45:38.495:      ┣obs_load_all_modules2: 5781.03 ms
+11:45:38.495:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+11:45:38.495:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+11:45:38.495:      ┃ ┣obs_init_module(decklink.so): 0.296 ms
+11:45:38.495:      ┃ ┣obs_init_module(frontend-tools.so): 570.142 ms
+11:45:38.495:      ┃ ┣obs_init_module(image-source.so): 0.043 ms
+11:45:38.495:      ┃ ┣obs_init_module(linux-alsa.so): 0.005 ms
+11:45:38.495:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+11:45:38.495:      ┃ ┣obs_init_module(linux-jack.so): 0.022 ms
+11:45:38.495:      ┃ ┣obs_init_module(linux-pipewire.so): 68.94 ms
+11:45:38.495:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.026 ms
+11:45:38.495:      ┃ ┣obs_init_module(linux-v4l2.so): 260.159 ms
+11:45:38.495:      ┃ ┣obs_init_module(obs-ffmpeg.so): 249.285 ms
+11:45:38.495:      ┃ ┃ ┗nvenc_check: 219.584 ms
+11:45:38.495:      ┃ ┣obs_init_module(obs-filters.so): 0.135 ms
+11:45:38.495:      ┃ ┣obs_init_module(obs-outputs.so): 0.061 ms
+11:45:38.496:      ┃ ┣obs_init_module(obs-qsv11.so): 0.383 ms
+11:45:38.496:      ┃ ┣obs_init_module(obs-transitions.so): 0.043 ms
+11:45:38.496:      ┃ ┣obs_init_module(obs-webrtc.so): 0.02 ms
+11:45:38.496:      ┃ ┣obs_init_module(obs-x264.so): 0.01 ms
+11:45:38.496:      ┃ ┣obs_init_module(rtmp-services.so): 149.435 ms
+11:45:38.496:      ┃ ┣obs_init_module(text-freetype2.so): 0.084 ms
+11:45:38.496:      ┃ ┗obs_init_module(vlc-video.so): 61.51 ms
+11:45:38.496:      ┣OBSBasic::InitService: 9.973 ms
+11:45:38.496:      ┣OBSBasic::ResetOutputs: 1.4 ms
+11:45:38.496:      ┣OBSBasic::CreateHotkeys: 0.603 ms
+11:45:38.496:      ┣OBSBasic::InitPrimitives: 1.313 ms
+11:45:38.496:      ┗OBSBasic::Load: 1613.56 ms
+11:45:38.496: obs_hotkey_thread(25 ms): min=0 ms, median=0.002 ms, max=1.87 ms, 99th percentile=0.007 ms, 100% below 25 ms
+11:45:38.496: audio_thread(Audio): min=0.011 ms, median=0.165 ms, max=423.373 ms, 99th percentile=0.633 ms
+11:45:38.496:  ┗receive_audio: min=0.002 ms, median=0.286 ms, max=423.246 ms, 99th percentile=1.902 ms, 0.0338035 calls per parent call
+11:45:38.496:    ┣buffer_audio: min=0.001 ms, median=0.002 ms, max=0.393 ms, 99th percentile=0.014 ms
+11:45:38.496:    ┗do_encode: min=0.026 ms, median=0.276 ms, max=423.241 ms, 99th percentile=1.889 ms
+11:45:38.496:      ┣encode(simple_aac_recording0): min=0.025 ms, median=0.262 ms, max=162.708 ms, 99th percentile=1.86 ms
+11:45:38.496:      ┗send_packet: min=0 ms, median=0.008 ms, max=423.029 ms, 99th percentile=0.062 ms
+11:45:38.496: obs_graphics_thread(16.6667 ms): min=0.123 ms, median=0.707 ms, max=1019.59 ms, 99th percentile=21.216 ms, 98.5995% below 16.667 ms
+11:45:38.496:  ┣tick_sources: min=0 ms, median=0.023 ms, max=841.78 ms, 99th percentile=0.084 ms
+11:45:38.496:  ┣output_frame: min=0.09 ms, median=0.324 ms, max=346.415 ms, 99th percentile=8.101 ms
+11:45:38.496:  ┃ ┣gs_context(video->graphics): min=0.09 ms, median=0.323 ms, max=346.414 ms, 99th percentile=7.778 ms
+11:45:38.496:  ┃ ┃ ┣render_video: min=0.012 ms, median=0.161 ms, max=346.345 ms, 99th percentile=7.693 ms
+11:45:38.496:  ┃ ┃ ┃ ┣render_main_texture: min=0.01 ms, median=0.151 ms, max=10.588 ms, 99th percentile=0.593 ms
+11:45:38.496:  ┃ ┃ ┃ ┣render_output_texture: min=0.033 ms, median=0.075 ms, max=241.447 ms, 99th percentile=0.9 ms, 0.0188334 calls per parent call
+11:45:38.496:  ┃ ┃ ┃ ┣render_convert_texture: min=0.033 ms, median=0.063 ms, max=32.613 ms, 99th percentile=0.55 ms, 0.0188334 calls per parent call
+11:45:38.496:  ┃ ┃ ┃ ┗stage_output_texture: min=4.58 ms, median=7.485 ms, max=98.98 ms, 99th percentile=87.606 ms, 0.0188334 calls per parent call
+11:45:38.496:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.133 ms, max=27.914 ms, 99th percentile=0.682 ms
+11:45:38.496:  ┃ ┃ ┗download_frame: min=0 ms, median=0.014 ms, max=0.214 ms, 99th percentile=0.078 ms, 0.0188334 calls per parent call
+11:45:38.496:  ┃ ┗output_video_data: min=0.001 ms, median=0.312 ms, max=18.052 ms, 99th percentile=1.719 ms, 0.0188137 calls per parent call
+11:45:38.496:  ┗render_displays: min=0.004 ms, median=0.291 ms, max=1017.26 ms, 99th percentile=2.469 ms
+11:45:38.496: video_thread(video): min=0.392 ms, median=1.075 ms, max=416.59 ms, 99th percentile=16.071 ms
+11:45:38.496:  ┗receive_video: min=0.391 ms, median=0.98 ms, max=416.588 ms, 99th percentile=9.584 ms, 1.86216 calls per parent call
+11:45:38.496:    ┗do_encode: min=0.389 ms, median=0.977 ms, max=416.585 ms, 99th percentile=9.582 ms
+11:45:38.496:      ┣encode(simple_video_recording): min=0.378 ms, median=0.941 ms, max=174.851 ms, 99th percentile=9.462 ms
+11:45:38.496:      ┗send_packet: min=0.002 ms, median=0.013 ms, max=416.028 ms, 99th percentile=0.28 ms
+11:45:38.496: =================================================
+11:45:38.496: == Profiler Time Between Calls ==================
+11:45:38.496: obs_hotkey_thread(25 ms): min=25.02 ms, median=25.093 ms, max=597.91 ms, 99.6143% within ±2% of 25 ms (0% lower, 0.385675% higher)
+11:45:38.496: obs_graphics_thread(16.6667 ms): min=1.637 ms, median=16.666 ms, max=1019.62 ms, 97.6023% within ±2% of 16.667 ms (0.669748% lower, 1.72797% higher)
+11:45:38.496: =================================================
+11:45:38.609: Number of memory leaks: 6

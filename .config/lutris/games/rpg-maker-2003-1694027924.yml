@@ -1,0 +1,16 @@
+game:
+  arch: win64
+  exe: /home/sasha/.local/share/Steam/steamapps/common/RPG Maker 2003/rpg2003.exe
+system:
+  env:
+    MESA_GL_VERSION_OVERRIDE: '4.5'
+wine:
+  Desktop: false
+  battleye: false
+  dxvk: false
+  eac: false
+  esync: false
+  fsr: false
+  fsync: false
+  version: lutris-GE-Proton8-7-x86_64
+  vkd3d: false

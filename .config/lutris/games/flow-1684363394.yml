@@ -1,0 +1,13 @@
+game:
+  exe: /home/sasha/Games/Flow/flow v0.194 (EN Patch 20.08.18)/data/RPG_RT.exe
+system:
+  env:
+    MESA_GL_VERSION_OVERRIDE: '4.5'
+wine:
+  battleye: false
+  dxvk: false
+  eac: false
+  esync: false
+  fsr: false
+  fsync: false
+  vkd3d: false

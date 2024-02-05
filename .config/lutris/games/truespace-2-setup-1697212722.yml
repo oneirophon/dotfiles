@@ -1,0 +1,30 @@
+game:
+  exe: /home/sasha/Games/truespace-2/drive_c/Program Files/TS2/TRUESPAC.EXE
+  prefix: /home/sasha/Games/truespace-2
+game_slug: truespace-2
+name: TrueSpace 2
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      app: win98
+      arch: win32
+      prefix: /home/sasha/Games/truespace-2
+      wine_path: /home/sasha/.local/share/lutris/runners/wine/lutris-GE-Proton8-7-x86_64/bin/wine
+  - task:
+      arch: win32
+      env: {}
+      executable: /home/sasha/Downloads/TSINSTALL/SETUP.EXE
+      prefix: /home/sasha/Games/truespace-2
+      wine_path: /home/sasha/.local/share/lutris/runners/wine/lutris-GE-Proton8-7-x86_64/bin/wine
+slug: truespace-2-setup
+system: {}
+variables: {}
+version: Setup file
+wine: {}
+year: null

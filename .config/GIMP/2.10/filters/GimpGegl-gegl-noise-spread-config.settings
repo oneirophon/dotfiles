@@ -1,0 +1,29 @@
+# settings
+
+(GimpGegl-gegl-noise-spread-config "2024-01-07 12:26:21"
+    (time 1704648381)
+    (amount-x 5)
+    (amount-y 5)
+    (seed 0))
+(GimpGegl-gegl-noise-spread-config "2023-09-08 17:04:52"
+    (time 1694207092)
+    (amount-x 12)
+    (amount-y 16)
+    (seed 1966934027))
+(GimpGegl-gegl-noise-spread-config "2023-08-18 17:32:25"
+    (time 1692394345)
+    (amount-x 1)
+    (amount-y 0)
+    (seed 3073289860))
+(GimpGegl-gegl-noise-spread-config "2023-08-12 15:45:46"
+    (time 1691869546)
+    (amount-x 3)
+    (amount-y 3)
+    (seed 0))
+(GimpGegl-gegl-noise-spread-config "2023-08-07 16:06:16"
+    (time 1691438776)
+    (amount-x 0)
+    (amount-y 26)
+    (seed 0))
+
+# end of settings

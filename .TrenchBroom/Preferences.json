@@ -1,0 +1,20 @@
+{
+    "Controls/Camera/Field of vision": 80,
+    "Controls/Camera/Fly move speed": 0.4395328462123871,
+    "Controls/Camera/Invert vertical look": true,
+    "Controls/Camera/Look speed": 0.49494948983192444,
+    "Controls/Camera/Move camera in cursor dir": true,
+    "Controls/Camera/Move down": "E",
+    "Controls/Camera/Move speed": 0.2929292917251587,
+    "Controls/Camera/Pan speed": 0.49494948983192444,
+    "Editor/UV lock": true,
+    "Games/Call of Carcosa/Path": "/home/sasha/call_of_carcosa",
+    "Menu/Edit/Tools/Clip Tool": "K",
+    "Menu/Edit/Tools/Edge Tool": "",
+    "Menu/View/Toggle Inspector": "N",
+    "Renderer/Brightness": 1,
+    "Renderer/Texture mode mag filter": 9729,
+    "Renderer/Texture mode min filter": 9987,
+    "Theme": "Dark",
+    "Views/Map view layout": 3
+}

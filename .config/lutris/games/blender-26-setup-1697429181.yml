@@ -1,0 +1,30 @@
+game:
+  exe: /home/sasha/Games/blender-26/drive_c/Program Files/Blender Foundation/Blender-2.26/blender.exe
+  prefix: /home/sasha/Games/blender-26
+game_slug: blender-26
+name: Blender 2.6
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      app: winxp
+      arch: win32
+      prefix: /home/sasha/Games/blender-26
+      wine_path: /home/sasha/.local/share/lutris/runners/wine/lutris-GE-Proton8-7-x86_64/bin/wine
+  - task:
+      arch: win32
+      env: {}
+      executable: /home/sasha/Downloads/blender-2.26-windows.exe
+      prefix: /home/sasha/Games/blender-26
+      wine_path: /home/sasha/.local/share/lutris/runners/wine/lutris-GE-Proton8-7-x86_64/bin/wine
+slug: blender-26-setup
+system: {}
+variables: {}
+version: Setup file
+wine: {}
+year: null

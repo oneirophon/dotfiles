@@ -1,0 +1,53 @@
+# settings
+
+(GimpGegl-gegl-noise-hsv-config "2023-09-09 17:47:33"
+    (time 1694296053)
+    (holdness 2)
+    (hue-distance 0)
+    (saturation-distance 0)
+    (value-distance 0.10199999999999999)
+    (seed 3796253166))
+(GimpGegl-gegl-noise-hsv-config "2023-08-26 20:21:43"
+    (time 1693095703)
+    (holdness 5)
+    (hue-distance 17.890000000000001)
+    (saturation-distance 0.050000000000000003)
+    (value-distance 0.060999999999999999)
+    (seed 2690812583))
+(GimpGegl-gegl-noise-hsv-config "2023-08-18 17:41:02"
+    (time 1692394862)
+    (holdness 8)
+    (hue-distance 0)
+    (saturation-distance 0)
+    (value-distance 0.23699999999999999)
+    (seed 4013237959))
+(GimpGegl-gegl-noise-hsv-config "2023-08-18 17:24:10"
+    (time 1692393850)
+    (holdness 7)
+    (hue-distance 0)
+    (saturation-distance 0)
+    (value-distance 0.27800000000000002)
+    (seed 0))
+(GimpGegl-gegl-noise-hsv-config "2023-08-16 23:42:57"
+    (time 1692243777)
+    (holdness 8)
+    (hue-distance 0)
+    (saturation-distance 0)
+    (value-distance 0.025999999999999999)
+    (seed 0))
+(GimpGegl-gegl-noise-hsv-config "2023-08-16 23:38:45"
+    (time 1692243525)
+    (holdness 8)
+    (hue-distance 0)
+    (saturation-distance 0)
+    (value-distance 0.032000000000000001)
+    (seed 0))
+(GimpGegl-gegl-noise-hsv-config "2023-08-12 15:46:19"
+    (time 1691869579)
+    (holdness 2)
+    (hue-distance 26.32)
+    (saturation-distance 0)
+    (value-distance 0.76000000000000001)
+    (seed 0))
+
+# end of settings

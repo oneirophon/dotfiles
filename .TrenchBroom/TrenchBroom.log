@@ -1,0 +1,39 @@
+Renderer info: Mesa Intel(R) HD Graphics 3000 (SNB GT2) version 3.3 (Compatibility Profile) Mesa 23.3.2 from Intel
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path "/opt/trenchbroom/app/defaults/assets"
+Adding file system path "/home/sasha/call_of_carcosa/."
+Loading document from /home/sasha/carcosa_local/maps/demhe/demhe_outdoor_1.map
+Unknown property definition type 'color255' for property '_color' (line 8, column 2)
+Solid entity definition must not have a size (line 25, column 13)
+Unquoted float default value 0 (line 37, column 37)
+Unquoted float default value 1 (line 41, column 22)
+Unquoted float default value 1 (line 42, column 22)
+Unquoted float default value 1 (line 67, column 23)
+Unquoted float default value 360 (line 73, column 37)
+Unquoted float default value 1 (line 77, column 22)
+Unquoted float default value 0.8 (line 83, column 23)
+Unquoted float default value 0 (line 84, column 36)
+Unquoted float default value 0 (line 85, column 31)
+Unquoted float default value 0 (line 86, column 38)
+Unquoted float default value 8 (line 87, column 23)
+Unquoted float default value 0 (line 88, column 38)
+Duplicate class info 'door' (line 52, column 13)
+Loaded entity definition file Qodot.fgd
+Loaded texture collection '"textures"'
+Added texture collection "textures"
+Loaded texture collection '"textures/alar"'
+Added texture collection "textures/alar"
+Loaded texture collection '"textures/demhe"'
+Added texture collection "textures/demhe"
+Loaded texture collection '"textures/hastur"'
+Added texture collection "textures/hastur"
+Loaded texture collection '"textures/immemorial"'
+Added texture collection "textures/immemorial"
+Loaded texture collection '"textures/test"'
+Added texture collection "textures/test"
+Loaded texture collection '"textures/yhtill"'
+Added texture collection "textures/yhtill"
+Loaded "/home/sasha/carcosa_local/maps/demhe/demhe_outdoor_1.map" in 2335ms
+Command 'Select 168 Objects' executed
+Transaction 'Select 168 Objects' executed
