@@ -1,0 +1,37 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_GB",
+	"api.token": "a14c7c9996d4be819682718c0a08549852917a75e0c1426d3894bec9ceb57783b5d786831eabfc760741b89a3bf7f4d06d9f8afa7f04fa35ce1ced32be7039be",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.languages": [
+		"en-US"
+	],
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"theme": 5,
+	"sync.target": 10,
+	"sync.10.username": "oneirophon@protonmail.com"
+}
