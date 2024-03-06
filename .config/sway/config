@@ -1,10 +1,14 @@
-exec /opt/wl-gammactl/wl-gammactl -c 1.050 -b 1.010 -g 0.700
 exec --no-startup-id dbus-update-activation-environment --all
 exec /usr/lib/xdg-desktop-portal -r 
 exec /usr/lib/xdg-desktop-portal-wlr;
 exec pipewire
 exec pipewire-pulse
 exec wireplumber
+exec wl-gammactl -c 1.050 -b 1.010 -g 0.700
+exec gnome-keyring-daemon --start --components=secrets
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec firefox
+exec telegram-desktop
 
 ### Variables
 #
@@ -16,7 +20,7 @@ set $mod Mod4
 #set $up k
 #set $right l
 # Your preferred terminal emulator
-set $term alacritty
+set $term kitt
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -25,7 +29,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/sasha/.wallpapers/anya.jpg fill
+output * bg $HOME/.wallpapers/anya.jpg fill
 output * subpixel none
 #
 # Example configuration:
@@ -61,18 +65,27 @@ output * subpixel none
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
-input type:keyboard {
-    xkb_layout "us"
-    xkb_options "ctrl:swapcaps"
-}
+# input type:keyboard {
+#     xkb_layout "us"
+#     xkb_options "ctrl:swapcaps"
+# }
 
 
 input type:pointer {
     natural_scroll disabled
     dwt disabled
     accel_profile "flat"
-    pointer_accel 0.8
+    pointer_accel 1.0
+    scroll_factor 0.5
 }
+
+# input "0:0:Evsieve_Virtual_Device" {
+#    natural_scroll disabled
+#    dwt disabled
+#    accel_profile "flat"
+#    pointer_accel 0.1
+#    scroll_factor 0.75
+# }
 
 input type:touchpad {
     tap enabled
@@ -109,7 +122,7 @@ mode "Ultra" {
     bindsym b exec firefox; mode "default"
     bindsym f floating toggle; mode "default"
     bindsym j focus parent; mode "default"
-    bindsym r exec fuzzel; mode "default"
+    bindsym r exec tofi-drun --drun-launch=true; mode "default"
     bindsym Control+q exec swaynag -t warning -m 'Do you really want to exit your Sway session?' -B 'Yes, exit Sway' 'swaymsg exit'; mode "default"
 }
 bindsym Control+semicolon mode "Ultra"
@@ -248,9 +261,9 @@ bar {
 # Theming:
 
 # target                 title   bg    text    indicator border
-client.focused           #000000 #afadbf #000000 #000000 #77748a
+client.focused           #000000 #bc9e76 #000000 #000000 #9c805a
 #client.focused_inactive  $mauve    $base   $text  $rosewater $mauve
-client.unfocused         #000000 #8e8ca0 #000000 #000000 #77748a
+client.unfocused         #000000 #9c805a #000000 #000000 #bc9e76
 #client.urgent            #ff54f4 #000000 #ff54f4 #ff54f4 #000000
 #client.placeholder       $overlay0 $base   $text  $overlay0  $overlay0
 #client.background        $base

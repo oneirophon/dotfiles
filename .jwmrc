@@ -3,7 +3,7 @@
     <!-- The root menu. -->
     <RootMenu onroot="12">
 		<Include>$HOME/.jwmrc-mjwm</Include>
-        <Program icon="utilities-terminal" label="Terminal">alacritty</Program>
+        <Program icon="utilities-terminal" label="Terminal">kitty</Program>
         <Menu icon="folder" label="Utilities">
             <Program icon="font" label="Fonts">xfontsel</Program>
             <Program icon="info" label="Window Properties">

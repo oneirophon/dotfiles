@@ -16,7 +16,7 @@
 		"children": [
 			{
 				"key": "sideBar",
-				"width": 250,
+				"width": 292,
 				"visible": true
 			},
 			{
@@ -31,7 +31,7 @@
 		],
 		"visible": true
 	},
-	"theme": 5,
+	"theme": 2,
 	"sync.target": 10,
 	"sync.10.username": "oneirophon@protonmail.com"
 }

@@ -1,14 +1,12 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Courier Screenplay", "Font Awesome 6 Free";
+    font-family: "Liberation Serif", "Font Awesome 6 Free";
     font-size: 14px;
     min-height: 0;
 }
 window#waybar {
-    background-color: #afadbf;
-    border-bottom: 2px #77748a;
-    border-top: 2px #77748a;
+    background-color: #bc9e76;
     padding-top: 5px;
     color: #000000; 
     transition-property: background-color;
@@ -37,32 +35,31 @@ window#waybar.solo {
     background-color: transparent;
     color: inherit;
     font-weight: 600;
+    /*
     border-top: 4px solid transparent;
     border-bottom: 3px solid transparent;
-    border-left: 2px solid #77748a;
+    border-left: 2px inset #9c805a;*/
+    border: 2px inset #9c805a;
 
 }
-
+/*
 #workspaces button:first-child {
     border-left: 0;
 }
+*/
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
-    background: #8e8ca0;
+    background: #bc9e76;
     box-shadow: inherit;
     text-shadow: inherit;
-    border-bottom: 3px solid #77748a;
-    border-top: 3px solid #77748a;
+    border: 2px inset #bc9e76;
 }
 
 #workspaces button.focused {
     background: rgba(0, 0, 0, 0.2);
 
-    border-top: 3px solid #77748a;
-    border-bottom: 3px solid #77748a;
-    border-left: 2px solid #77748a;
-    border-right: 2px solid #77748a;
+	border:1px outset #bc9e76;
 
     color: #000000;
 }
@@ -95,16 +92,14 @@ window#waybar.solo {
     background-color: transparent;
     color: inherit;
     font-weight: 600;
-    border-top: 4px solid transparent;
-    border-bottom: 3px solid transparent;
-    border-left: 2px solid #77748a;
+    border: 2px inset #bc9e76;
 }
 
 #tray {
     padding-left: 8px;
     padding-right:8px;
     min-width: 40px;
-    border-left: 2px solid #77748a;
+    border: 2px inset #bc9e76;
     font-size: 20px;
 }
 
@@ -114,6 +109,7 @@ window#waybar.solo {
 
 #clock {
     font-size: 14px;
+    border: 2px inset #bc9e76;
 }
 
 #mpd.playing {

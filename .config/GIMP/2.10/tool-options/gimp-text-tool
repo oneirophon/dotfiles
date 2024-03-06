@@ -1,12 +1,10 @@
 # GIMP gimp-text-tool options
 
-(foreground (color-rgb 0 0 1))
+(foreground (color-rgb 1 1 1))
 (palette "Color History")
-(font "Voynich V101")
+(font "Font Awesome 6 Free")
 (font-size 50)
 (hint-style full)
 (line-spacing 39)
-(letter-spacing -4)
-(box-mode fixed)
 
 # end of gimp-text-tool options

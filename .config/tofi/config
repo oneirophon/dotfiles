@@ -13,10 +13,10 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "/usr/share/fonts/TTF/CourierScreenplay.ttf"
+	font = "/usr/share/fonts/liberation/LiberationSerif-Bold.ttf"
 
 	# Point size of text.
-	font-size = 12
+	font-size = 14
 
 	# Comma separated list of OpenType font feature settings to apply,
 	# if supported by the chosen font. The format is similar to the CSS
@@ -171,7 +171,7 @@
 	height = 600
 
 	# Window background color
-	background-color = #afadbf
+	background-color = #bc9e76
 
 	# Width of the border outlines in pixels.
 	outline-width = 2
@@ -183,7 +183,7 @@
 	border-width = 12
 
 	# Border color
-	border-color = #8e8ca0
+	border-color = #9c805a
 
 	# Radius of window corners in pixels.
 	corner-radius = 0
